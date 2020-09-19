@@ -3,6 +3,7 @@ import Row from "./Row";
 import "./App.css";
 import requests from "./requests";
 import Banner from "./Banner";
+import Nav from "./Nav";
 
 //a082dac20168021cd77111be28f02352
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="app">
       {/* Nav Bar */}
       {/* Banner */}
+      <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
